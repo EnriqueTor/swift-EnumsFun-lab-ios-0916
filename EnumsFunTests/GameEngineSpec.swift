@@ -17,6 +17,9 @@ import Nimble
 class GameEngineSpec: QuickSpec {
     override func spec() {
         describe("GameEngine") {
+            
+            
+            
             var gameEngine = GameEngine(player1: "Player1", player2: "Player2")
 
             beforeEach {
@@ -39,7 +42,6 @@ class GameEngineSpec: QuickSpec {
 
                     let card1 = Card(rank: rank1, suit: suit1)
                     let card2 = Card(rank: rank2, suit: suit2)
-
                     let hand1 = Hand(cards: [card1])
                     let hand2 = Hand(cards: [card2])
 
